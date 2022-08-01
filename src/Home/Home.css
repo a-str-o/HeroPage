@@ -1,0 +1,65 @@
+.Home-container {
+    top: 500px;
+    height: 800px;
+    margin-top: 80px;
+}
+.HeroText {
+    height: 700px;
+    margin-top: 50px;
+}
+.HeroImage {
+    height: 700px;
+    margin-top: 50px;
+}
+.HeroDesk {
+
+    height: 650px;
+}
+.HeroMob {
+    width: 90%;
+}
+.HeroText {
+    margin-left: 80px;
+    padding: 20px;
+}
+.HeroText h1 {
+    font-size: 70px;
+}
+.HeroText h4 {
+    width: 400px;
+    margin-left: 10px;
+    line-height: 1.6;
+    margin-top: 60px;
+}
+.HeroText button {
+    color: white;
+    background-color: black;
+    border: 0ch;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 50px;
+    width: 160px;
+    margin-top: 40px;
+}
+.client {
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.client img {
+    height: auto;
+    width: 60px;
+}
+@media only screen and (max-width: 900px) { 
+    .red {
+        margin-top: 0px;
+    }
+    .red {
+        margin-top: 50px;
+    }
+    br {
+        display: none;
+    }
+}

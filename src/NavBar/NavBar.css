@@ -1,0 +1,147 @@
+.Header-container  {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    height: 100px;
+}
+.head {
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    margin-bottom: 200px;
+    background-color: white;
+    top: 0;
+}
+.bar-container {
+    width: 100%;
+    background-color: #c38287;
+    height: 1.4em;
+}
+.bar-text {
+    color: white;
+    
+}
+.right-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.icon-bar {
+    color: gray;
+    margin-right: 10px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+a {
+        font: inherit;
+        color: #c38287;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+}
+.nav-item:hover {
+    text-decoration: underline;
+    border-bottom: solid 2px #c38287;
+}
+Link {
+    text-decoration:none;
+}
+.nav-item {
+    cursor: pointer;;
+    color: gray;
+}
+
+.offer-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 20px;
+    overflow: auto;
+    white-space: nowrap;
+    width: 170px;
+    border: 1px solid transparent;
+    min-width: 50px;
+    max-width: none;
+    border-color: #c38287;
+    color: #c38287;
+}
+.member {
+    font-style: normal;
+}
+.offer-wrapper em {
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.subtitle {
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.left-container  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-left: 50px;
+}
+.menu {
+    display:flex;
+    margin-left: 50px;
+}
+h4 {
+    margin-left: 30px;
+    color: #696969;
+}
+.offer-button {
+    font-size: 0.8rem;
+    color: #696969;
+    background-color: transparent;
+    padding: 15px 30px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    z-index: 0;
+    letter-spacing: 0.5px;
+   border: white;
+    text-align: center;
+}
+.button--white {
+    border: solid 2px #696969;
+    border-radius: 15px;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.logo-style {
+    color: #c38287 important;
+    font-size: 30px;
+    letter-spacing: 20px;
+    line-height: 90px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.icon-logo {
+    width: 25x;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1024px) { 
+    .header {
+        height: 100px;
+    }
+}
